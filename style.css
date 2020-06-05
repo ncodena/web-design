@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 
 /*============ BOOTSTRAP BREAK POINTS:
@@ -18,3 +19,18 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+/* Navigation */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important ;
+}
