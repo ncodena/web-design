@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -194,6 +175,16 @@ h3.heading {
     .btn-lg {
         padding: .5rem 1rem;
         font-size: 1rem;
+    }
+
+    .feature img {
+        max-width: 12.5%;
+        min-width: 12.5%;
+    }
+
+    .spFeature img {
+        max-width: 12.5%;
+        min-width: 12.5%;
     }
 
 }
