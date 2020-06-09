@@ -54,7 +54,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover  {
-    color: #1ebba3;
+    color:  rgb(228, 70, 70);
 
 }
 
@@ -165,4 +165,35 @@ h3.heading {
 .first {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Media queries */
+
+@media (max-width: 767px) {
+    .caption {
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 38%;
+        z-index: 1;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    
+    .btn-lg {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
 }
