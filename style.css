@@ -150,13 +150,17 @@ h3.heading {
 .feature img {
     max-width: 25%;
     min-width: 25%;
-    /* border-radius: 50%; */
 }
 
-/* .spFeature img {
+.col-md-2 h5 {
+    padding-top: 0.5rem;
+}
+
+.spFeature img {
     max-width: 25%;
     min-width: 25%;
-} */
+    border-radius: 50%;
+}
 
 .first {
     display: flex;
