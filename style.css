@@ -95,15 +95,25 @@ body {
 }
 
 .carousel-item{
-    height: 400px;
+    height: 540px;
     width: 100%;
     text-align: center;
+    background-color: rgb(48, 47, 47);
 } 
 .carousel-item img{
     min-width: 100%;
     min-height: 400px;
     max-width: 100%;
     max-height: 400px;
+}
+
+.carousel-caption h5 {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    color: whitesmoke;
 }
 
 .list-projects {
