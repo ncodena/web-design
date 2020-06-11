@@ -83,7 +83,13 @@ body {
     padding-top: 2rem;
 }
 
-.narrow .row {
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.narrow .carousel-container {
     width: 55%;
 }
 
@@ -97,13 +103,16 @@ body {
     min-height: 250px;
     max-width: 100%;
     max-height: 300px;
-    /* height: 200px; */
-    /* max-width: 50%;
-    min-width: 50%; */
-    /* position: absolute; */
-    /* object-fit:cover;
-    top: 0; 
-    left: 0; */
+}
+
+.list-projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.card {
+    margin: 5px;
 }
 
 /* Technologies section */
