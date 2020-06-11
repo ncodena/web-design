@@ -125,6 +125,22 @@ body {
 
 .card {
     margin: 5px;
+    background-color: rgb(48, 47, 47);
+    color: whitesmoke;
+}
+
+
+
+.card h5 {
+    font-weight: 700;
+}
+
+.card a {
+    color: rgb(228, 70, 70);
+}
+
+.card a:hover {
+    color: whitesmoke
 }
 
 /* Technologies section */
