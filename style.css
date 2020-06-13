@@ -69,6 +69,10 @@ body {
     padding-bottom: 1.6rem;
 }
 
+.caption span {
+    color: rgb(228, 70, 70)
+}
+
 .btn-lg {
     border-width: medium;
     border-radius: 0;
