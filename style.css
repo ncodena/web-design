@@ -104,6 +104,8 @@ html {
     height: .25rem;
     background-color: #fff;
     position: relative;
+    animation: grow 2s forwards;
+    animation-delay: .9s ;
 }
 
 .line-right::before,
@@ -113,6 +115,16 @@ html {
     top: 50%;
     transform: translateY(-50%);
     border: .6rem solid transparent;
+}
+
+.line-right::before{
+    border-right-color: #fff;
+    right: 0;
+}
+
+.line-left::before{
+    border-left-color: #fff;
+    left: 0;
 }
 
 .asterisk {
