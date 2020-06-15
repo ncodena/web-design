@@ -144,10 +144,15 @@ html {
 
 .btn-lg {
     border-width: medium;
+    text-transform: uppercase;
     border-radius: 0;
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
+    font-weight: 600;
+    transition: .7s;
 }
+
+
 
 /* Portfolio section */
 
