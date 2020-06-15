@@ -55,6 +55,11 @@ body {
     text-transform: uppercase;
 }
 
+.caption .container{
+    display: flex;
+    flex-direction: column;
+}
+
 .caption h1 {
     font-size: 3.8rem;
     font-weight: 700;
