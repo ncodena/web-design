@@ -81,11 +81,11 @@ html {
     padding-bottom: 1rem;
 }
 
-.caption h3 {
+/* .caption h3 {
     font-size: 2rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1.6rem;
-}
+} */
 
 .caption span {
     color: rgb(228, 70, 70)
@@ -100,7 +100,7 @@ html {
 
 .line {
     width: 100%;
-    max-width: 8.4rem;
+    max-width: 10rem;
     height: .25rem;
     background-color: #fff;
     position: relative;
@@ -117,7 +117,7 @@ html {
     border: .6rem solid transparent;
 }
 
-.line-right::before{
+/* .line-right::before{
     border-right-color: #fff;
     right: 0;
 }
@@ -125,11 +125,21 @@ html {
 .line-left::before{
     border-left-color: #fff;
     left: 0;
-}
+} */
 
 .asterisk {
     font-size: 1.2rem;
-    color: var(--secondary-font-color ) ;
+    color: var(--secondary-font-color );
+    margin: 0 1.6rem;
+}
+
+.headline-description h5 {
+    font-size: 1.8rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+
 }
 
 .btn-lg {
