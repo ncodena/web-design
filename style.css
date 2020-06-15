@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 
+
 :root{
     --main-font: 'Lato', sans-serif;
-    /* --secondary-font: 'Herr Von Muellerhoff', cursive; */
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
     /* --secondary-font-color: #c59d5f; */
