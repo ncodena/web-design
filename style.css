@@ -91,6 +91,35 @@ html {
     color: rgb(228, 70, 70)
 }
 
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line {
+    width: 100%;
+    max-width: 8.4rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.line-right::before,
+.line-left::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: .6rem solid transparent;
+}
+
+.asterisk {
+    font-size: 1.2rem;
+    color: var(--secondary-font-color ) ;
+}
+
 .btn-lg {
     border-width: medium;
     border-radius: 0;
