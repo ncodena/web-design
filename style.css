@@ -296,7 +296,7 @@ h3.heading {
     border-radius: 50%;
 }
 
-.first {
+.logo-group {
     display: flex;
     flex-wrap: wrap;
 }
@@ -343,6 +343,12 @@ h3.heading {
     .spFeature img {
         max-width: 12.5%;
         min-width: 12.5%;
+    }
+
+    .logo-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5;
     }
 
 
