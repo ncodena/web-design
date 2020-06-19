@@ -296,7 +296,7 @@ h3.heading {
     border-radius: 50%;
 }
 
-.logo-group {
+.first {
     display: flex;
     flex-wrap: wrap;
 }
@@ -345,11 +345,11 @@ h3.heading {
         min-width: 12.5%;
     }
 
-    .logo-group {
+    /* .logo-group {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.5;
-    }
+    } */
 
 
 
