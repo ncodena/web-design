@@ -152,6 +152,21 @@ html {
     transition: .7s;
 }
 
+/* About section */
+
+.description-text {
+    margin-bottom: 3rem;
+}
+
+.description-text p {
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+
+.description-img img {
+    max-width: 100%;
+}
+
 
 
 /* Portfolio section */
