@@ -312,6 +312,8 @@ footer {
 
 footer a {
     color: whitesmoke;
+    opacity: .5;
+    transition: .5s;
 }
 
 footer a:hover {
@@ -323,6 +325,17 @@ footer svg.svg-inline--fa {
     margin: 1.2rem .5rem 0 0;
 }
 
+.footer-content-about {
+    margin-bottom: 2.4rem;
+}
+
+.footer-content-about p {
+    line-height: 2;
+}
+
+.social-media {
+    margin-bottom: 2.4rem;
+}
 .back-to-top {
     width: 7rem;
     height: 7rem;
@@ -346,6 +359,8 @@ hr.socket {
     border-top: .1rem solid var(--secondary-font-color);
     margin-top: .3rem;
 }
+
+
 
 /* Media queries */
 
