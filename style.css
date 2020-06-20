@@ -300,6 +300,13 @@ h3.heading {
     flex-wrap: wrap;
 }
 
+/* Contact section */
+
+footer {
+    background-color: var(--main-font-color-dark);
+    color: whitesmoke;
+}
+
 /* Media queries */
 
 @media (max-width: 767px) {
