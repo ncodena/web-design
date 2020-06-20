@@ -308,6 +308,8 @@ footer {
     padding: 2rem 0 2rem;
     text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 footer a {
