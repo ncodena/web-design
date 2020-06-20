@@ -316,7 +316,8 @@ footer a {
     transition: .5s;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
     color: var(--secondary-font-color);
 }
 
@@ -411,6 +412,10 @@ hr.socket {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.5;
     } */
+
+    footer a {
+        opacity: 9;
+    }
 
 
 
