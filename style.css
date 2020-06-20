@@ -7,7 +7,7 @@
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
     /* --secondary-font-color: #c59d5f; */
-    --secondary-font-color:  rgb(228, 70, 70);;
+    --secondary-font-color:  rgb(228, 70, 70);
     --body-font-color: #515151;
 }
 
@@ -81,8 +81,8 @@ html {
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
     opacity: 0;
-    animation: fadeUp .9s forwards;
-    animation-delay: .5s;
+    animation: fadeUp .5s forwards;
+    animation-delay: .1.5s;
 }
 
 /* .caption h3 {
@@ -93,6 +93,7 @@ html {
 
 .caption span {
     color: rgb(228, 70, 70)
+    
 }
 
 .separator {
@@ -106,11 +107,11 @@ html {
     width: 100%;
     max-width: 10rem;
     height: .25rem;
-    background-color: #fff;
+    background-color: var(--secondary-font-color );
     position: relative;
     opacity: 0;
     animation: grow 2s forwards;
-    animation-delay: .9s ;
+    animation-delay: .9s;
 }
 
 .line-right::before,
@@ -120,6 +121,7 @@ html {
     top: 50%;
     transform: translateY(-50%);
     border: .6rem solid transparent;
+    color: var(--secondary-font-color );
 }
 
 /* .line-right::before{
@@ -134,8 +136,14 @@ html {
 
 .asterisk {
     font-size: 1.2rem;
-    color: var(--secondary-font-color );
+    color: whitesmoke;
     margin: 0 1.6rem;
+}
+
+.single-animation {
+    opacity: 0;
+    animation: fadeDown .7s forwards;
+    animation-delay: .5s;
 }
 
 .headline-description h5 {
@@ -447,6 +455,17 @@ hr.socket {
     100%{
         opacity: 1;
         width: 100%;
+    }
+}
+
+@keyframes fadeDown {
+    0%{
+        transform: translateY(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
