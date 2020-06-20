@@ -73,12 +73,16 @@ html {
     flex-direction: column;
 }
 
+
 .caption h1 {
     font-size: 3.8rem;
     font-weight: 600;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
+    opacity: 0;
+    animation: fadeUp .9s forwards;
+    animation-delay: .5s;
 }
 
 /* .caption h3 {
@@ -104,6 +108,7 @@ html {
     height: .25rem;
     background-color: #fff;
     position: relative;
+    opacity: 0;
     animation: grow 2s forwards;
     animation-delay: .9s ;
 }
@@ -419,6 +424,29 @@ hr.socket {
         opacity: 9;
     }
 
-
-
 }
+
+/* Animations */
+
+@keyframes fadeUp {
+    0%{
+        transform: translateY(4rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes grow {
+    0%{
+        width: 0;
+    }
+
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+}
+
