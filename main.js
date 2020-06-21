@@ -6,6 +6,13 @@ sr.reveal('.animate-left', {
     origin: 'left',
     duration: '1500',
     distance: '25rem',
+    delay: 400
+});
+
+sr.reveal('.heading, .heading-underline', {
+    origin: 'left',
+    duration: '1500',
+    distance: '25rem',
     delay: 300
 });
 
