@@ -356,12 +356,18 @@ footer svg.svg-inline--fa {
     border-radius: 50%;
 }
 
-.back-to-top i {
+.back-to-top svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 0rem 0rem 0 0;
+}
+
+.back-to-top a {
     display: block;
     color: whitesmoke;
     font-size: 2rem;
     padding: 2rem;
-    animation: up .2s infinite;
+    margin: 0rem 0rem 0 0;
+    animation: up 2s infinite;
 }
 
 hr.socket {
