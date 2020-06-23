@@ -34,5 +34,5 @@ sr.reveal('.animate-top', {
     origin: 'bottom',
     duration: '1500',
     distance: '25rem',
-    delay: 500
+    delay: 400
 });
