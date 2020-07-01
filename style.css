@@ -413,6 +413,10 @@ hr.socket {
         font-size: 1.2rem;
         padding-bottom: 1.2rem;
     }
+
+    .about-info {
+        grid-template-columns: 1fr;
+    }
     
     .btn-lg {
         padding: .5rem 1rem;
