@@ -159,9 +159,16 @@ html {
 }
 
 /* About section */
-
 .description-text {
-    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .description-text p {
@@ -170,7 +177,7 @@ html {
 }
 
 .description-img img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 80%;
     border-radius: 70%;
 }
@@ -416,6 +423,10 @@ hr.socket {
 
     .about-info {
         grid-template-columns: 1fr;
+    }
+
+    .description-img img {
+        max-width: 80%;
     }
     
     .btn-lg {
