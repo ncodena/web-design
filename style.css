@@ -400,6 +400,37 @@ hr.socket {
         width: 100%;
     }
 
+    .carousel-item {
+
+        min-width: 100%;
+        min-height: 365px;
+        max-width: 100%;
+        max-height: 365px;
+
+    }
+
+    .carousel-item img {
+        min-width: 100%;
+        min-height: 245px;
+        max-width: 100%;
+        max-height: 245px;
+
+    }
+
+    .carousel-caption {
+        color: white;
+        height: 15vh;
+    }
+
+    .carousel-caption h5 {
+        font-size: 0.85rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.75rem;
+    }
+
+
     .caption {
         width: 100%;
         max-width: 100%;
@@ -426,7 +457,7 @@ hr.socket {
     }
 
     .description-img img {
-        max-width: 80%;
+        max-width: 100%;
     }
     
     .btn-lg {
