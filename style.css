@@ -54,8 +54,13 @@ html {
 
 /* Landing Page */
 
+.landing .home-wrap{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .home-inner {
-    background-image: url(img/computers.png);
+    background-image: url(img/desktop.jpg);
+    z-index: -1;
 }
 
 .caption {
